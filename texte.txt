@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maître Dupont - Notaire spécialisé en héritage familial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .testimonial {
+            background-color: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            margin: 20px 0;
+            padding: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Maître Dupont</h1>
+    <p>Notaire spécialisé en héritage familial et successions</p>
+</header>
+
+<section id="about">
+    <h2>À propos de Maître Dupont</h2>
+    <p>Maître Dupont est un notaire qualifié avec une expertise reconnue en matière de succession et d'héritage familial. Son cabinet est spécialisé dans l'accompagnement personnalisé des familles pour assurer une transmission sereine et transparente du patrimoine. Il possède des certifications d'authenticité et des années d'expérience dans le domaine notarial.</p>
+</section>
+
+<section id="values">
+    <h2>Valeurs du Cabinet</h2>
+    <ul>
+        <li><strong>Transparence :</strong> Chaque étape est expliquée en toute clarté aux clients.</li>
+        <li><strong>Efficacité :</strong> Les démarches sont traitées avec rigueur et rapidité.</li>
+        <li><strong>Accompagnement personnalisé :</strong> Chaque famille est unique, et Maître Dupont adapte ses services aux besoins spécifiques de ses clients.</li>
+    </ul>
+</section>
+
+<section id="testimonials">
+    <h2>Témoignages Clients</h2>
+    <div class="testimonial">
+        <p>« Maître Dupont nous a aidés à gérer la succession de notre père avec beaucoup de professionnalisme et d’empathie. » - Famille Lemoine</p>
+    </div>
+    <div class="testimonial">
+        <p>« Nous avons été rassurés par la transparence de Maître Dupont dans toutes les démarches. » - M. et Mme Renault</p>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Services Offerts</h2>
+    <ul>
+        <li><strong>Gestion des héritages et successions :</strong> Assistance complète pour les démarches successorales.</li>
+        <li><strong>Conseil en droit de la famille :</strong> Expertise pour les décisions liées au patrimoine familial.</li>
+        <li><strong>Accompagnement pour la rédaction de testaments :</strong> Aide personnalisée pour la planification de la succession.</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Pour toute question ou prise de rendez-vous, veuillez remplir le formulaire ci-dessous :</p>
+    <div class="contact-form">
+        <form action="#" method="post">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Maître Dupont - Notaire en héritage familial</p>
+    <p>Adresse : 123 Rue des Notaires, Paris, France</p>
+</footer>
+
+</body>
+</html>
